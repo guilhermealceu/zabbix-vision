@@ -2,7 +2,7 @@
 
 Um dashboard moderno para o **Zabbix**, focado em entender o que está acontecendo, e não só em listar alertas: topologia com impacto em cascata, detecção de flapping, correlação de eventos e previsão de incidentes.
 
-> 📸 _Print do dashboard_
+![Dashboard do Zabbix Vision](docs/dashboard.png)
 
 ## Sobre
 
@@ -17,6 +17,13 @@ O frontend padrão do Zabbix mostra muito problema e pouca explicação. Quando 
 - **Vários servidores Zabbix** (5.4, 6.0, 6.4, 7.0 e 7.2), separados ou numa visão unificada
 - **Análise com IA**: Ollama local, Google Gemini ou um motor de regras offline, que funciona sem IA nenhuma
 - **Operação do dia a dia**: dashboard em tempo real, linha do tempo, reconhecimento (ack) de problemas, filtros por tag e período e modo wallboard para NOC
+
+## Telas
+
+<table>
+<tr><td width="50%" align="center"><img src="docs/status-hosts.png" alt="Status dos hosts por unidade" /><br /><sub>Status dos hosts por unidade</sub></td><td width="50%" align="center"><img src="docs/correlacao.png" alt="Correlação de eventos com causa provável" /><br /><sub>Correlação de eventos com causa provável</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/flapping.png" alt="Detector de flapping" /><br /><sub>Detector de flapping</sub></td><td width="50%" align="center"><img src="docs/previsoes.png" alt="Previsão semanal de incidentes" /><br /><sub>Previsão semanal de incidentes</sub></td></tr>
+</table>
 
 ## Requisitos
 
